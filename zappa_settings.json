@@ -1,0 +1,13 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "eu-west-1",
+        "profile_name": "default",
+        "project_name": "flask-parcel-st",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-8qm2fgxq7",
+        "manage_roles": false, // Disable Zappa client managing roles.
+        "role_name": "dash-financial-dev-ZappaLambdaExecutionRole" // Name of your Zappa execution role. Default <project_name >- <env >-ZappaExecutionRole.
+      
+    }
+}
